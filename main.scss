@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300;1,500;1,900&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;};
+img{
+    width: 100%;
+}
+body{
+    width: 88%;
+    margin-inline: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: grid;
+    place-content: center;
+
+    .logo{
+        width: 6em;
+        margin-top: 1em;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+        //Animation
+        animation:logo-entro 2s forwards;
+>>>>>>> 9a7d69c (reupdated)
+>>>>>>> e967ff3 (Some Changes)
+    }
+}
+
+.ul-list{
+    li{
+        list-style: none;
+        margin-bottom: .4em;
+        margin-left: 2em;
+        position: relative;
+        line-height: 1.2em;
+
+        &:before{
+            content: "";
+            top: .01em;
+            left: -2em;
+            position: absolute;
+            width: 16px;
+            height: 16px ;
+            background-image: url(/images/gif/task.png);
+            background-size: contain;
+            margin-right: .1em;
+        }
+    }
+}
+
+.ul-1{
+    margin-bottom: 1.3em;
+}
+
+h2{
+    font-size: 1.1em;
+    line-height: 1em;
+    margin-bottom: .3em;
+}
+p{
+    font-size: 1rem;
+}
+
+.span{
+    font-weight: bold;
+}
+.info{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    h1{
+        margin-top: .6em;
+        font-size: 8rem;
+        position: relative;
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        //Animation
+        animation: Gwrtext-intro 2s forwards;
+
+>>>>>>> 9a7d69c (reupdated)
+>>>>>>> e967ff3 (Some Changes)
+        &:before{
+            content: "";
+            position: absolute;
+            width: 1.3em;
+            height: .13em;
+            background-color: yellow;
+            top: .87em;
+            left: 1.4em;
+            z-index: -2;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+            //Animation
+            animation: bar-line 2s forwards;
+>>>>>>> 9a7d69c (reupdated)
+>>>>>>> e967ff3 (Some Changes)
+        }
+    }
+    p{
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: grey;
+        top: 6.3em;
+        margin-bottom: 4em;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e967ff3 (Some Changes)
+    }
+}
+
+// .container {
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+// }
+
+<<<<<<< HEAD
+=======
+=======
+
+        //Animation
+        animation: common-anim 2s forwards;
+    }
+}
+
+>>>>>>> 9a7d69c (reupdated)
+>>>>>>> e967ff3 (Some Changes)
+.inner{
+    // display: flex;
+    // justify-content: center;
+    margin-bottom: 2.5em;
+    margin-right: .5em;
+    padding: 1.1em;
+    border-radius: 1em;
+    border: 1.6px solid rgb(214, 214, 214);
+    box-shadow:
+    2.9px 2.3px 1.9px rgba(0, 0, 0, 0.18),
+    7.4px 5.8px 4.9px rgba(0, 0, 0, 0.124),
+    15.1px 11.9px 9.9px rgba(0, 0, 0, 0.1),
+    31px 24.5px 20.4px rgba(0, 0, 0, 0.08),
+    85px 67px 56px rgba(0, 0, 0, 0.056)
+    ;
+    background-color:rgb(0, 0, 0);
+    color: white;
+
+    .inner3Pics{
+        width: 7.9em;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        gap: .2em;
+        margin-bottom: 1.4em;
+    }
+
+    .firstH{
+        text-transform: uppercase;
+        font-size: 2rem;
+        line-height: 1em;
+        margin-bottom: .7em;
+    }
+    .img-container{
+        text-align: center;
+        margin-bottom: 2em;
+        position: relative;
+
+        img{
+            width: 100%;
+            border-radius: .7em;
+        }
+    }
+
+    .inner-1{
+
+        padding: 0 1.4em;
+        h2{
+            font-size: 1.4rem;
+            text-transform: uppercase;
+            color: rgb(181, 181, 181);
+        }
+        p{
+            font-size: 1rem;
+            color: rgb(217, 217, 217);
+        }
+        ul{
+            li{
+                font-size: .95rem;
+                letter-spacing: .02em;
+                color: rgb(132, 132, 132);
+            }
+        }
+        .ee{
+            font-size: 3rem;
+            color: yellow;
+        }
+        .redFOnt{
+            color:yellow;
+            text-transform: uppercase;
+            font-size: 1.05rem;
+        }
+    }
+}
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+@keyframes Gwrtext-intro {
+    from {
+        transform: translateY(-40%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(15%);
+    }
+}
+
+@keyframes bar-line {
+    from {
+        transform: translateX(100%)
+    }
+    to {
+        transform: translateX(-1%)
+    }
+}
+
+@keyframes common-anim {
+    from {
+        opacity: 0;
+        transform: scale(70%);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes logo-entro {
+    from {
+        opacity: 0;
+        transform: scale(70%);
+    }
+    to {
+        opacity: 1;
+    }
+}
+>>>>>>> 9a7d69c (reupdated)
+>>>>>>> e967ff3 (Some Changes)
