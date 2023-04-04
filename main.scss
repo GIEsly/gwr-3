@@ -16,15 +16,10 @@ header {
     .logo{
         width: 6em;
         margin-top: 1em;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 
         //Animation
         animation:logo-entro 2s forwards;
->>>>>>> 9a7d69c (reupdated)
->>>>>>> e967ff3 (Some Changes)
+
     }
 }
 
@@ -70,20 +65,17 @@ p{
     margin: 0;
     padding: 0;
     text-align: center;
+    height: 100vh;
+
     h1{
         margin-top: .6em;
         font-size: 8rem;
         position: relative;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
+
         //Animation
         animation: Gwrtext-intro 2s forwards;
 
->>>>>>> 9a7d69c (reupdated)
->>>>>>> e967ff3 (Some Changes)
         &:before{
             content: "";
             position: absolute;
@@ -93,15 +85,10 @@ p{
             top: .87em;
             left: 1.4em;
             z-index: -2;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
+
 
             //Animation
             animation: bar-line 2s forwards;
->>>>>>> 9a7d69c (reupdated)
->>>>>>> e967ff3 (Some Changes)
         }
     }
     p{
@@ -111,10 +98,7 @@ p{
         color: grey;
         top: 6.3em;
         margin-bottom: 4em;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> e967ff3 (Some Changes)
+
     }
 }
 
@@ -123,34 +107,24 @@ p{
 //     grid-template-columns: repeat(2, 1fr);
 // }
 
-<<<<<<< HEAD
-=======
-=======
 
-        //Animation
-        animation: common-anim 2s forwards;
-    }
-}
-
->>>>>>> 9a7d69c (reupdated)
->>>>>>> e967ff3 (Some Changes)
 .inner{
     // display: flex;
     // justify-content: center;
     margin-bottom: 2.5em;
     margin-right: .5em;
-    padding: 1.1em;
+    padding: 1.6em;
     border-radius: 1em;
-    border: 1.6px solid rgb(214, 214, 214);
-    box-shadow:
-    2.9px 2.3px 1.9px rgba(0, 0, 0, 0.18),
-    7.4px 5.8px 4.9px rgba(0, 0, 0, 0.124),
-    15.1px 11.9px 9.9px rgba(0, 0, 0, 0.1),
-    31px 24.5px 20.4px rgba(0, 0, 0, 0.08),
-    85px 67px 56px rgba(0, 0, 0, 0.056)
-    ;
-    background-color:rgb(0, 0, 0);
-    color: white;
+    border: 1.3px solid rgb(50, 50, 50);
+    // box-shadow:
+    // 2.9px 2.3px 1.9px rgba(0, 0, 0, 0.18),
+    // 7.4px 5.8px 4.9px rgba(0, 0, 0, 0.124),
+    // 15.1px 11.9px 9.9px rgba(0, 0, 0, 0.1),
+    // 31px 24.5px 20.4px rgba(0, 0, 0, 0.08),
+    // 85px 67px 56px rgba(0, 0, 0, 0.056)
+    // ;
+    background-color:white;
+    color: black;
 
     .inner3Pics{
         width: 7.5em;
@@ -183,17 +157,17 @@ p{
         h2{
             font-size: 1.4rem;
             text-transform: uppercase;
-            color: rgb(181, 181, 181);
+            color: rgb(0, 0, 0);
         }
         p{
             font-size: 1rem;
-            color: rgb(217, 217, 217);
+            color: rgb(125, 125, 125);
         }
         ul{
             li{
                 font-size: .95rem;
                 letter-spacing: .02em;
-                color: rgb(132, 132, 132);
+                color: rgb(68, 68, 68);
             }
         }
         .ee{
@@ -201,20 +175,15 @@ p{
             color: yellow;
         }
         .redFOnt{
-            color:yellow;
+            color:rgb(0, 0, 0);
             text-transform: uppercase;
             font-size: 1.05rem;
-        }
-        
     }
 }
 
 
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
+
 @keyframes Gwrtext-intro {
     from {
         transform: translateY(-40%);
@@ -253,5 +222,3 @@ p{
         opacity: 1;
     }
 }
->>>>>>> 9a7d69c (reupdated)
->>>>>>> e967ff3 (Some Changes)

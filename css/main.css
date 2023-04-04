@@ -25,14 +25,8 @@ header {
 header .logo {
   width: 6em;
   margin-top: 1em;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
   -webkit-animation: logo-entro 2s forwards;
           animation: logo-entro 2s forwards;
->>>>>>> 9a7d69c (reupdated)
->>>>>>> e967ff3 (Some Changes)
 }
 
 .ul-list li {
@@ -83,14 +77,8 @@ p {
   margin-top: .6em;
   font-size: 8rem;
   position: relative;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
   -webkit-animation: Gwrtext-intro 2s forwards;
           animation: Gwrtext-intro 2s forwards;
->>>>>>> 9a7d69c (reupdated)
->>>>>>> e967ff3 (Some Changes)
 }
 
 .info h1:before {
@@ -102,14 +90,8 @@ p {
   top: .87em;
   left: 1.4em;
   z-index: -2;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
   -webkit-animation: bar-line 2s forwards;
           animation: bar-line 2s forwards;
->>>>>>> 9a7d69c (reupdated)
->>>>>>> e967ff3 (Some Changes)
 }
 
 .info p {
@@ -119,33 +101,20 @@ p {
   color: grey;
   top: 6.3em;
   margin-bottom: 4em;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-  -webkit-animation: common-anim 2s forwards;
-          animation: common-anim 2s forwards;
->>>>>>> 9a7d69c (reupdated)
->>>>>>> e967ff3 (Some Changes)
 }
 
 .inner {
   margin-bottom: 2.5em;
   margin-right: .5em;
-  padding: 1.1em;
+  padding: 1.6em;
   border-radius: 1em;
-  border: 1.6px solid #d6d6d6;
-  -webkit-box-shadow: 2.9px 2.3px 1.9px rgba(0, 0, 0, 0.18), 7.4px 5.8px 4.9px rgba(0, 0, 0, 0.124), 15.1px 11.9px 9.9px rgba(0, 0, 0, 0.1), 31px 24.5px 20.4px rgba(0, 0, 0, 0.08), 85px 67px 56px rgba(0, 0, 0, 0.056);
-          box-shadow: 2.9px 2.3px 1.9px rgba(0, 0, 0, 0.18), 7.4px 5.8px 4.9px rgba(0, 0, 0, 0.124), 15.1px 11.9px 9.9px rgba(0, 0, 0, 0.1), 31px 24.5px 20.4px rgba(0, 0, 0, 0.08), 85px 67px 56px rgba(0, 0, 0, 0.056);
-  background-color: black;
-  color: white;
+  border: 1.3px solid #323232;
+  background-color: white;
+  color: black;
 }
 
 .inner .inner3Pics {
-  width: 7.9em;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  width: 7.5em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -181,18 +150,18 @@ p {
 .inner .inner-1 h2 {
   font-size: 1.4rem;
   text-transform: uppercase;
-  color: #b5b5b5;
+  color: black;
 }
 
 .inner .inner-1 p {
   font-size: 1rem;
-  color: #d9d9d9;
+  color: #7d7d7d;
 }
 
 .inner .inner-1 ul li {
   font-size: .95rem;
   letter-spacing: .02em;
-  color: #848484;
+  color: #444444;
 }
 
 .inner .inner-1 .ee {
@@ -201,14 +170,10 @@ p {
 }
 
 .inner .inner-1 .redFOnt {
-  color: yellow;
+  color: black;
   text-transform: uppercase;
   font-size: 1.05rem;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 
 @-webkit-keyframes Gwrtext-intro {
   from {
@@ -299,5 +264,3 @@ p {
     opacity: 1;
   }
 }
->>>>>>> 9a7d69c (reupdated)
->>>>>>> e967ff3 (Some Changes)
